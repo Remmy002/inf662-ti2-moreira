@@ -82,4 +82,4 @@ flutter run
 
 ## APK
 
-- **APK:** disponible en [Releases](https://github.com/Remmy002/inf662-ti2-moreira/releases).
+- **APK:** disponible en [Releases](https://github.com/Remmy002/inf662-ti2-moreira/releases/tag/v1.0).
