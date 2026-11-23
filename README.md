@@ -12,13 +12,13 @@ Aplicación móvil en Flutter para gestionar **rutinas de gimnasio** y sus **eje
 - Formularios con validación (`Form` + `TextFormField`).
 - Resumen por rutina con consulta de agregación (`LEFT JOIN` + `GROUP BY`, `COUNT` y `SUM`): ejercicios, series y volumen total (series × repeticiones × peso).
 - Estado vacío en listados, indicador de carga y manejo de errores con `try/catch`.
-- Modo claro y oscuro.
+- Modo Claro y Oscuro.
 
 ## Diagrama entidad-relación
 
 ```mermaid
 erDiagram
-    RUTINAS ||--o{ EJERCICIOS : contiene
+    RUTINAS ||--o{ EJERCICIOS : contiene 
     RUTINAS {
         int id 
         string nombre
