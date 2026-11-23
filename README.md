@@ -20,14 +20,14 @@ Aplicación móvil en Flutter para gestionar **rutinas de gimnasio** y sus **eje
 erDiagram
     RUTINAS ||--o{ EJERCICIOS : contiene
     RUTINAS {
-        int id PK
+        int id 
         string nombre
         string dia
         string descripcion
     }
     EJERCICIOS {
-        int id PK
-        int rutina_id FK
+        int id 
+        int rutina_id 
         string nombre
         int series
         int repeticiones
